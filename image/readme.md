@@ -50,3 +50,21 @@ docker ps-a (-a pour all), on voit bien qu'on a plus de conteneur
 Supprimer l'image Docker
 docker rmi docker/welcome-to-docker
 ![alt text](image-17.png)
+
+exemple de ligne de commande pour ces actions pour supprimer :
+○ Un conteneur spécifique
+docker rm container_id_or_name1
+○ Plusieurs conteneurs
+docker rm container_id_or_name1 container_id_or_name2
+○ Tous les conteneurs arrêtés
+docker container prune
+○ Forcer la suppression d'un conteneur actif
+docker rm -f mon-conteneur
+○ Une image spécifique
+docker rmi nom_image
+○ Plusieurs images
+docker rmi nom_image1 nom_image2
+○ Toutes les images non utilisées
+docker image prune
+○ Forcer la suppression d'une image
+docker rmi -f ID_IMAGE
