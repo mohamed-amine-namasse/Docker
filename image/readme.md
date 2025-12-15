@@ -28,3 +28,5 @@ Récupérer l’image Docker:
 
 docker pull node:22-alpine
 ![alt text](image-10.png)
+docker images
+![alt text](image-11.png)
