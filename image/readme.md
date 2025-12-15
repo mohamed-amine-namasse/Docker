@@ -9,3 +9,6 @@ docker info
 
 docker ps
 ![alt text](image-4.png)
+
+docker images
+![alt text](image-5.png)
