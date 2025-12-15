@@ -18,3 +18,6 @@ docker run
 
 docker run -d --name mon-web-serveur -p 80:80 nginx
 ![alt text](image-7.png)
+
+docker stop
+![alt text](image-8.png)
