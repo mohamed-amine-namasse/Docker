@@ -36,3 +36,9 @@ docker run -it --rm -p 8080:80 docker/welcome-to-docker
 ![alt text](image-13.png)
 docker run -it -d --rm -p 8080:80 docker/welcome-to-docker
 ![alt text](image-14.png)
+
+Arréter le conteneur
+On fait docker ps pour lister les conteneurs
+![alt text](image-15.png)
+On arrete le conteneur a travers son nom ou ID avec docker stop id/nom et on reliste tous les conteneurs avec docker ps-a (-a pour all), on voit bien qu'on a plus de conteneur
+![alt text](image-16.png)
