@@ -34,3 +34,5 @@ Construction du container Docker
 docker run -it --rm -p 8080:80 docker/welcome-to-docker
 ![alt text](image-12.png)
 ![alt text](image-13.png)
+docker run -it -d --rm -p 8080:80 docker/welcome-to-docker
+![alt text](image-14.png)
