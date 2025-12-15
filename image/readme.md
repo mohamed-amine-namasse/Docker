@@ -23,3 +23,8 @@ docker stop
 ![alt text](image-8.png)
 docker stop mon-web-serveur
 ![alt text](image-9.png)
+
+Récupérer l’image Docker:
+
+docker pull node:22-alpine
+![alt text](image-10.png)
