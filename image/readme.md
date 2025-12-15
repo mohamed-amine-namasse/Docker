@@ -12,3 +12,9 @@ docker ps
 
 docker images
 ![alt text](image-5.png)
+
+docker run
+![alt text](image-6.png)
+
+docker run -d --name mon-web-serveur -p 80:80 nginx
+![alt text](image-7.png)
