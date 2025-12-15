@@ -46,3 +46,7 @@ Supprimer le conteneur:
 docker rm container_id_or_name1
 docker ps-a (-a pour all), on voit bien qu'on a plus de conteneur
 ![alt text](image-16.png)
+
+Supprimer l'image Docker
+docker rmi docker/welcome-to-docker
+![alt text](image-17.png)
